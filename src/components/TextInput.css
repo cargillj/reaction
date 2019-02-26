@@ -1,0 +1,32 @@
+label {
+  align-items: center;
+  background-color: var(--grey1);
+  border: solid 2px white;
+  border-radius: .25em;
+  color: white;
+  display: flex;
+  font-family: arial;
+  padding: var(--thick-padding);
+  transition: all var(--normal) ease;
+}
+
+label span {
+  color: var(--grey3);
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+label.valid {
+  border-color: var(--green);
+}
+
+label.invalid, label.invalid .Password {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+label input {
+  background-color: transparent;
+  border:none;
+  color: white;
+}

@@ -1,0 +1,54 @@
+.Btn {
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: .25em;
+  color: white;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 1em;
+  font-weight: bold;
+  padding: var(--thick-padding);
+  transition: all var(--quick) ease;
+}
+
+.Btn:hover {
+  background-color: white;
+  color: var(--grey3);
+}
+
+.Btn:active {
+  background-color: transparent;
+  color: white;
+}
+
+.Btn.positive {
+  border: solid 2px var(--green);
+  background-color: var(--green);
+  color: var(--gray3);
+}
+
+.Btn.positive:hover {
+  background-color: var(--grey3);
+  border: solid 2px var(--green);
+  color: var(--green);
+}
+
+.Btn.positive:active {
+  background-color: var(--green);
+  color: var(--gray3);
+}
+
+.Btn.negative {
+  border: solid 2px var(--red);
+  color: var(--red);
+}
+
+.Btn.negative:hover {
+  background-color: var(--red);
+  color: var(--gray3);
+}
+
+.Btn.negative:active {
+  background-color: transparent;
+  color: var(--red);
+}
