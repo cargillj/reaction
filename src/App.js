@@ -3,7 +3,6 @@ import './App.css';
 import Button from './components/Button';
 import Password from './components/Password';
 import TextInput from './components/TextInput';
-import { timingSafeEqual } from 'crypto';
 
 class App extends Component {
   validateText() {
