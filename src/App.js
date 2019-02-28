@@ -3,6 +3,7 @@ import './App.css';
 import Button from './components/Button';
 import Password from './components/Password';
 import TextInput from './components/TextInput';
+import Card from './components/Card';
 
 class App extends Component {
   validateText() {
@@ -34,12 +35,20 @@ class App extends Component {
             placeholder="type stuff here"
             validation={this.validateText}
           />
+        </section>
+        <section>
           <TextInput
             name="textarea"
             type="textarea"
             placeholder="type more stuff here"
             validation={this.validateText}
           />
+        </section>
+        <h2>Card</h2>
+        <section>
+          <Card>
+            Hello, this is a card
+          </Card>
         </section>
       </div>
     );

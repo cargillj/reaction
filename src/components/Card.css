@@ -1,0 +1,6 @@
+div.card {
+  background-color: var(--grey2);
+  border-radius: var(--radius);
+  padding: var(--thick-padding);
+  width: 100%;
+}

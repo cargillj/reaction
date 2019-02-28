@@ -10,6 +10,8 @@ body {
   --slow: .75s;
 
   --thick-padding: .75em 1em;
+
+  --radius: .25em; 
   background-color: var(--grey3);
   margin: 0;
   padding: 0;
